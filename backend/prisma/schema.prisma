@@ -1,0 +1,27 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+
+model Task {
+  id            Int      @id @default(autoincrement()) // ID único e auto-incrementado
+  dentistName   String                                   // Nome do dentista
+  description   String?                                 // Descrição do trabalho (opcional)
+  entryDate     DateTime                                // Data de entrada
+  color         String?                                 // Cor do material (opcional)
+  tooth         String?                                 // Dente relacionado (opcional)
+  patientName   String                                  // Nome do paciente
+  value         Float                                   // Valor do procedimento
+  deliveryDate  DateTime                                // Data de entrega
+
+  createdAt     DateTime @default(now())                // Registro de criação
+  updatedAt     DateTime @updatedAt                     // Registro de atualização
+}
+
+
+

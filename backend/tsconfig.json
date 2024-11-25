@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "../dist",              // Código compilado vai para a pasta dist
+    "rootDir": "./src",               // Pasta de código-fonte
+    "target": "ES6",                  // Gera código compatível com ES6
+    "module": "CommonJS",             // Sistema de módulos usado no Node.js
+    "strict": true,                   // Verificações rigorosas
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

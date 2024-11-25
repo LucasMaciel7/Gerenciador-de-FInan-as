@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                   // Target para o JavaScript gerado
+    "module": "CommonJS",              // Sistema de módulos
+    "outDir": "./dist",                // Diretório de saída
+    "rootDir": "./",                   // Diretório raiz para os arquivos
+    "strict": true,                    // Ativa verificações rigorosas
+    "esModuleInterop": true,           // Suporte a módulos ES6
+    "skipLibCheck": true,              // Ignora verificações de tipos em declarações de bibliotecas
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["backend/src/**/*", "frontend/src/**/*"], // Inclui pastas de código
+  "exclude": ["node_modules", "dist", "frontend/build"] // Exclui pastas desnecessárias
+}
