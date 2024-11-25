@@ -3,6 +3,10 @@
 
 Um sistema simples para gerenciar tarefas e finanças de uma clínica odontológica. O sistema inclui um backend em Node.js (Express) com Prisma para integração com banco de dados PostgreSQL e um frontend em React utilizando Vite e Tailwind CSS.
 
+![image](https://github.com/user-attachments/assets/e52c508b-16d3-4dfa-90f4-a600730ab0e8)
+
+
+
 ## Funcionalidades
 - Cadastro de tarefas (dentista, paciente, descrição, valores, etc.).
 - Listagem de tarefas com tabela estilizada.
@@ -41,7 +45,8 @@ Gerenciador-de-Financas/
 │   ├── src/
 │   │   ├── components/
 │   │   ├── App.tsx
-│   │   ├── index.tsx
+│   │   ├── index.tsx![WhatsApp Image 2024-11-24 at 22 20 40](https://github.com/user-attachments/assets/2febe2f1-8c18-4a61-9382-5c6de178ebe0)
+
 │   │   └── styles/
 │   ├── package.json
 │   └── vite.config.ts
@@ -60,7 +65,7 @@ Certifique-se de ter os seguintes softwares instalados:
 
 ### 1. Clonar o repositório
 ```bash
-git clone https://github.com/seu-usuario/gerenciador-financas.git
+git clone git@github.com:LucasMaciel7/Gerenciador-de-FInancas.git
 cd gerenciador-financas
 ```
 
