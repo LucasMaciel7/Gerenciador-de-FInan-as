@@ -45,7 +45,7 @@ Gerenciador-de-Financas/
 │   ├── src/
 │   │   ├── components/
 │   │   ├── App.tsx
-│   │   ├── index.tsx![WhatsApp Image 2024-11-24 at 22 20 40](https://github.com/user-attachments/assets/2febe2f1-8c18-4a61-9382-5c6de178ebe0)
+│   │   ├── index.tsx
 
 │   │   └── styles/
 │   ├── package.json
